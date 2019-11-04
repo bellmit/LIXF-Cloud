@@ -1,0 +1,269 @@
+2019-10-30 17:39:21 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2379b5a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:21 INFO  [LIXF-Auth,,,] main ll.mrli.lixf.auth.LixfAuthApplication No active profile set, falling back to default profiles: default
+2019-10-30 17:39:22 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-30 17:39:22 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-30 17:39:22 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-30 17:39:22 INFO  [LIXF-Auth,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=76a2615a-8966-38ca-9de4-fa861b32f15b
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75fb2ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$70ee237c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2379b5a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8101 (http)
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8101"]
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1771 ms
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@439d545c
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Starting...
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [base] success
+2019-10-30 17:39:23 INFO  [LIXF-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2019-10-30 17:39:24 INFO  [LIXF-Auth,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-10-30 17:39:25 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d92e327, org.springframework.security.web.context.SecurityContextPersistenceFilter@48aaaed9, org.springframework.security.web.header.HeaderWriterFilter@2c465259, org.springframework.security.web.authentication.logout.LogoutFilter@38093ffe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36ab69d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27bbe773, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e97f51c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76134251, org.springframework.security.web.session.SessionManagementFilter@1885dc2b, org.springframework.security.web.access.ExceptionTranslationFilter@1b556a88, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bceac99]
+2019-10-30 17:39:25 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6549ce71, org.springframework.security.web.context.SecurityContextPersistenceFilter@33837bd4, org.springframework.security.web.header.HeaderWriterFilter@180d918a, org.springframework.security.web.authentication.logout.LogoutFilter@511bfbb0, ll.mrli.lixf.auth.filter.ValidateCodeFilter@65ef9a0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61c145cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@153409b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@733bd6f3, org.springframework.security.web.session.SessionManagementFilter@55f23335, org.springframework.security.web.access.ExceptionTranslationFilter@629600d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23365142]
+2019-10-30 17:39:25 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@912747d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c9d833, org.springframework.security.web.header.HeaderWriterFilter@5ccc971e, org.springframework.security.web.authentication.logout.LogoutFilter@3c20e9d6, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3051e476, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31c0c7e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18b58c77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20f99c18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78ea700f, org.springframework.security.web.session.SessionManagementFilter@28269c65, org.springframework.security.web.access.ExceptionTranslationFilter@7836c79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67f266bd]
+2019-10-30 17:39:25 INFO  [LIXF-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-30 17:39:25 INFO  [LIXF-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 17:39:26 INFO  [LIXF-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2019-10-30 17:39:26 INFO  [LIXF-Auth,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:27 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1572428369605 with initial instances count: 0
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application LIXF-AUTH with eureka with status UP
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1572428369610, current=UP, previous=STARTING]
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8101"]
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8101 (http) with context path ''
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8101
+2019-10-30 17:39:29 INFO  [LIXF-Auth,,,] main ll.mrli.lixf.auth.LixfAuthApplication Started LixfAuthApplication in 9.021 seconds (JVM running for 10.449)
+2019-10-30 17:39:30 INFO  [LIXF-Auth,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2019-10-30 17:39:30 INFO  [LIXF-Auth,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2019-10-30 17:39:30 INFO  [LIXF-Auth,,,] RMI TCP Connection(3)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 17:39:30 INFO  [LIXF-Auth,,,] RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019-10-30 17:39:30 INFO  [LIXF-Auth,,,] RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:32 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:37 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:42 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:52 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:39:57 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:40:01 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:40:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:40:07 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:40:12 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:40:15 INFO  [LIXF-Auth,,,] Thread-24 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application LIXF-AUTH with eureka with status DOWN
+2019-10-30 17:40:15 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:40:15 INFO  [LIXF-Auth,,,] Thread-24 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2019-10-30 17:40:15 INFO  [LIXF-Auth,,,] Thread-24 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 17:43:22 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ddafe7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:22 INFO  [LIXF-Auth,,,] main ll.mrli.lixf.auth.LixfAuthApplication No active profile set, falling back to default profiles: default
+2019-10-30 17:43:23 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-30 17:43:23 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-30 17:43:23 INFO  [LIXF-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=76a2615a-8966-38ca-9de4-fa861b32f15b
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81c0fb82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$eb4f6c53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ddafe7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8101 (http)
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8101"]
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1761 ms
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1182413a
+2019-10-30 17:43:24 INFO  [LIXF-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Starting...
+2019-10-30 17:43:25 INFO  [LIXF-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2019-10-30 17:43:25 INFO  [LIXF-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [base] success
+2019-10-30 17:43:25 INFO  [LIXF-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2019-10-30 17:43:25 INFO  [LIXF-Auth,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-10-30 17:43:27 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59282dc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@1669f4e5, org.springframework.security.web.header.HeaderWriterFilter@4fef4f96, org.springframework.security.web.authentication.logout.LogoutFilter@440461ef, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8dbf0f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4be1dce6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a299b9d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@603b9d4b, org.springframework.security.web.session.SessionManagementFilter@2520010e, org.springframework.security.web.access.ExceptionTranslationFilter@1bbb48dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a80a896]
+2019-10-30 17:43:27 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5111f814, org.springframework.security.web.context.SecurityContextPersistenceFilter@229514ff, org.springframework.security.web.header.HeaderWriterFilter@34647f58, org.springframework.security.web.authentication.logout.LogoutFilter@2e4d2232, ll.mrli.lixf.auth.filter.ValidateCodeFilter@be616f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@664254b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@714b6999, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71eafb64, org.springframework.security.web.session.SessionManagementFilter@14b96c1e, org.springframework.security.web.access.ExceptionTranslationFilter@da9374c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3661b732]
+2019-10-30 17:43:27 INFO  [LIXF-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@153409b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dadd172, org.springframework.security.web.header.HeaderWriterFilter@5444f1c3, org.springframework.security.web.authentication.logout.LogoutFilter@4bceac99, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7bde704a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@61c145cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33c9f1ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4070c4ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@511bfbb0, org.springframework.security.web.session.SessionManagementFilter@6a5c2d2d, org.springframework.security.web.access.ExceptionTranslationFilter@1906f982, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33837bd4]
+2019-10-30 17:43:27 INFO  [LIXF-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-30 17:43:27 INFO  [LIXF-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 17:43:29 INFO  [LIXF-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2019-10-30 17:43:29 INFO  [LIXF-Auth,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2019-10-30 17:43:30 INFO  [LIXF-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:43:31 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1572428613387 with initial instances count: 0
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application LIXF-AUTH with eureka with status UP
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1572428613394, current=UP, previous=STARTING]
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8101"]
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8101 (http) with context path ''
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8101
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] main ll.mrli.lixf.auth.LixfAuthApplication Started LixfAuthApplication in 12.217 seconds (JVM running for 13.006)
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2019-10-30 17:43:33 INFO  [LIXF-Auth,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2019-10-30 17:43:34 INFO  [LIXF-Auth,,,] RMI TCP Connection(8)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 17:43:34 INFO  [LIXF-Auth,,,] RMI TCP Connection(8)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019-10-30 17:43:34 INFO  [LIXF-Auth,,,] RMI TCP Connection(8)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 14 ms
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:43:36 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:43:41 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:43 INFO  [LIXF-Auth,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 2ab392df6e58
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-30 17:43:46 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:47 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:50 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 - Re-registering apps/LIXF-AUTH
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:43:53 INFO  [LIXF-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 - registration status: 204
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:56 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:43:59 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-30 17:44:02 INFO  [LIXF-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-30 17:48:31 INFO  [LIXF-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-30 17:53:31 INFO  [LIXF-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-30 17:56:27 INFO  [LIXF-Auth,,,] Thread-27 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application LIXF-AUTH with eureka with status DOWN
+2019-10-30 17:56:27 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101: registering service...
+2019-10-30 17:56:27 INFO  [LIXF-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 - registration status: 204
+2019-10-30 17:56:27 INFO  [LIXF-Auth,,,] Thread-27 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2019-10-30 17:56:27 INFO  [LIXF-Auth,,,] Thread-27 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 17:56:29 INFO  [LIXF-Auth,,,] Thread-27 com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2019-10-30 17:56:29 INFO  [LIXF-Auth,,,] Thread-27 com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2019-10-30 17:56:29 INFO  [LIXF-Auth,,,] Thread-27 com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2019-10-30 17:56:29 INFO  [LIXF-Auth,,,] Thread-27 com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2019-10-30 17:56:29 INFO  [LIXF-Auth,,,] Thread-27 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2019-10-30 17:56:32 INFO  [LIXF-Auth,,,] Thread-27 com.netflix.discovery.DiscoveryClient Unregistering ...

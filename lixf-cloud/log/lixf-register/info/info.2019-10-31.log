@@ -1,0 +1,180 @@
+2019-10-31 16:51:08 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2fff5b7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:51:09 INFO  [LIXF-Register,,,] main ll.mrli.lixf.register.LixfRegisterApplication No active profile set, falling back to default profiles: default
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b01d49aa-8e6a-3180-84e9-b42fbe895634
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2fff5b7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1635 ms
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-31 16:51:10 INFO  [LIXF-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@233f52f8
+2019-10-31 16:51:11 INFO  [LIXF-Register,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-10-31 16:51:11 INFO  [LIXF-Register,,,] main com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70bc3a9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c787389, org.springframework.security.web.header.HeaderWriterFilter@7921a37d, org.springframework.security.web.csrf.CsrfFilter@5ac0bf84, org.springframework.security.web.authentication.logout.LogoutFilter@493968a9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d7314b3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1859e55c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@771cbd13, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48860139, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@415262a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f6906f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@229749f0, org.springframework.security.web.session.SessionManagementFilter@6338afe2, org.springframework.security.web.access.ExceptionTranslationFilter@1ce2029b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3292eff7]
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-31 16:51:12 INFO  [LIXF-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31 16:51:13 INFO  [LIXF-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2019-10-31 16:51:13 INFO  [LIXF-Register,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data.
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1572511874397 with initial instances count: 0
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initializing ...
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: []
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initialized
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application LIXF-REGISTER with eureka with status UP
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] Thread-24 org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path '/register'
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8001
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] main ll.mrli.lixf.register.LixfRegisterApplication Started LixfRegisterApplication in 7.557 seconds (JVM running for 8.415)
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] http-nio-8001-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] http-nio-8001-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019-10-31 16:51:14 INFO  [LIXF-Register,,,] http-nio-8001-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2019-10-31 16:51:15 INFO  [LIXF-Register,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e2b2b30bc900
+2019-10-31 16:51:15 INFO  [LIXF-Register,,,] http-nio-8001-exec-6 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 with status UP (replication=false)
+2019-10-31 16:51:15 INFO  [LIXF-Register,,,] http-nio-8001-exec-8 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-GATEWAY/S6P36ZS239I4HZ0:LIXF-Gateway:8301 with status UP (replication=false)
+2019-10-31 16:51:34 INFO  [LIXF-Register,,,] http-nio-8001-exec-2 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-SERVER-SYSTEM/S6P36ZS239I4HZ0:LIXF-Server-System:8201 with status UP (replication=false)
+2019-10-31 16:51:38 INFO  [LIXF-Register,,,] http-nio-8001-exec-9 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-SERVER-TEST/S6P36ZS239I4HZ0:LIXF-Server-Test:8202 with status UP (replication=false)
+2019-10-31 16:52:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:53:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:54:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:55:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:56:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:57:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:58:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 16:59:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:00:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:01:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:02:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:03:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:04:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:05:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:06:14 INFO  [LIXF-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2019-10-31 17:06:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:07:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:08:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:09:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:10:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:11:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:12:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:13:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:14:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:15:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:16:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:17:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:18:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:19:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:20:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:21:14 INFO  [LIXF-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2019-10-31 17:21:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:22:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:23:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:24:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:25:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:26:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:27:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:28:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:29:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:30:14 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:30:20 INFO  [LIXF-Register,,,] http-nio-8001-exec-8 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 with status DOWN (replication=false)
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] http-nio-8001-exec-7 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-GATEWAY/S6P36ZS239I4HZ0:LIXF-Gateway:8301 with status DOWN (replication=false)
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application LIXF-REGISTER with eureka with status DOWN
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 com.netflix.eureka.DefaultEurekaServerContext Shutting down ...
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 com.netflix.eureka.DefaultEurekaServerContext Shut down
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2019-10-31 17:30:21 INFO  [LIXF-Register,,,] Thread-26 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient
+2019-10-31 17:34:41 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5284432e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:34:41 INFO  [LIXF-Register,,,] main ll.mrli.lixf.register.LixfRegisterApplication No active profile set, falling back to default profiles: default
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b01d49aa-8e6a-3180-84e9-b42fbe895634
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5284432e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2019-10-31 17:34:42 INFO  [LIXF-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1205 ms
+2019-10-31 17:34:43 INFO  [LIXF-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-31 17:34:43 INFO  [LIXF-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@12d40609
+2019-10-31 17:34:43 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2019-10-31 17:34:43 INFO  [LIXF-Register,,,] main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-31 17:36:10 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e5bec521] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:36:10 INFO  [LIXF-Register,,,] main ll.mrli.lixf.register.LixfRegisterApplication No active profile set, falling back to default profiles: default
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b01d49aa-8e6a-3180-84e9-b42fbe895634
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e5bec521] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1178 ms
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-31 17:36:11 INFO  [LIXF-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@580902cd
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57920d6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c9ef37b, org.springframework.security.web.header.HeaderWriterFilter@4feec184, org.springframework.security.web.csrf.CsrfFilter@50e1f3fc, org.springframework.security.web.authentication.logout.LogoutFilter@23d978b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28f8ce2e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@74badf19, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@465d1345, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@311a09b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c8758d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@499c4d61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62cf86d6, org.springframework.security.web.session.SessionManagementFilter@3278d065, org.springframework.security.web.access.ExceptionTranslationFilter@74231642, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10dbf660]
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-31 17:36:12 INFO  [LIXF-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data.
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1572514573819 with initial instances count: 0
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initializing ...
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: []
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initialized
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application LIXF-REGISTER with eureka with status UP
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] Thread-20 org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path '/register'
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8001
+2019-10-31 17:36:13 INFO  [LIXF-Register,,,] main ll.mrli.lixf.register.LixfRegisterApplication Started LixfRegisterApplication in 4.92 seconds (JVM running for 5.567)
+2019-10-31 17:36:14 INFO  [LIXF-Register,,,] RMI TCP Connection(3)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-31 17:36:14 INFO  [LIXF-Register,,,] RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019-10-31 17:36:14 INFO  [LIXF-Register,,,] RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2019-10-31 17:36:24 INFO  [LIXF-Register,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e2b2b30bc900
+2019-10-31 17:36:38 INFO  [LIXF-Register,,,] http-nio-8001-exec-5 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-GATEWAY/S6P36ZS239I4HZ0:LIXF-Gateway:8301 with status UP (replication=false)
+2019-10-31 17:37:07 INFO  [LIXF-Register,,,] http-nio-8001-exec-9 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 with status UP (replication=false)
+2019-10-31 17:37:13 INFO  [LIXF-Register,,,] http-nio-8001-exec-5 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-SERVER-TEST/S6P36ZS239I4HZ0:LIXF-Server-Test:8202 with status UP (replication=false)
+2019-10-31 17:37:13 INFO  [LIXF-Register,,,] http-nio-8001-exec-6 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-SERVER-SYSTEM/S6P36ZS239I4HZ0:LIXF-Server-System:8201 with status UP (replication=false)
+2019-10-31 17:37:13 INFO  [LIXF-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2019-10-31 17:37:31 INFO  [LIXF-Register,,,] http-nio-8001-exec-8 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-AUTH/S6P36ZS239I4HZ0:LIXF-Auth:8101 with status DOWN (replication=false)
+2019-10-31 17:37:31 INFO  [LIXF-Register,,,] http-nio-8001-exec-10 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance LIXF-GATEWAY/S6P36ZS239I4HZ0:LIXF-Gateway:8301 with status DOWN (replication=false)
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application LIXF-REGISTER with eureka with status DOWN
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 com.netflix.eureka.DefaultEurekaServerContext Shutting down ...
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 com.netflix.eureka.DefaultEurekaServerContext Shut down
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2019-10-31 17:37:32 INFO  [LIXF-Register,,,] Thread-22 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient

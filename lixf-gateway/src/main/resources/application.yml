@@ -1,0 +1,66 @@
+server:
+  port: 8301
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://${lixf-monitor-admin}:8401
+        username: lixf
+        password: 123456
+  application:
+    name: LIXF-Gateway
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    registry-fetch-interval-seconds: 3
+    service-url:
+      defaultZone: http://lixf:123456@${lixf-register}:8001/register/eureka/
+
+zuul:
+  routes:
+    auth:
+      path: /auth/**
+      serviceId: LIXF-Auth
+      sensitiveHeaders: "*"
+    system:
+      path: /system/**
+      serviceId: LIXF-Server-System
+      sensitiveHeaders: "*"
+    test:
+      path: /test/**
+      serviceId: LIXF-Server-Test
+      sensitiveHeaders: "*"
+  retryable: true
+  ignored-services: "*"
+  ribbon:
+    eager-load:
+      enabled: true
+  host:
+    connect-timeout-millis: 5000
+    socket-timeout-millis: 5000
+  SendErrorFilter:
+    error:
+      disable: true
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: "@project.description@"
+    version: "@project.version@"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

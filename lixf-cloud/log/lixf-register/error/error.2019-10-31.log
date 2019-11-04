@@ -1,0 +1,20 @@
+2019-10-31 17:34:43 ERROR [LIXF-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatStarter Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration': Unsatisfied dependency expressed through field 'eurekaServerConfig'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerConfig' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration$EurekaServerConfigBeanConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerConfig' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'eurekaClientConfigBean': Could not bind properties to 'EurekaClientConfigBean' : prefix=eureka.client, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'eureka.client.service-url.defaultzone' to java.lang.String
+2019-10-31 17:34:43 ERROR [LIXF-Register,,,] main org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'eureka.client.service-url.defaultzone' to java.lang.String:
+
+    Property: eureka.client.service-url.defaultzone
+    Value: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}${server.servlet.context-path}/eureka/
+    Origin: class path resource [application.yml]:29:20
+    Reason: Could not resolve placeholder 'lixf-register' in value "${lixf-register}"
+
+Action:
+
+Update your application's configuration
+
